@@ -1,20 +1,21 @@
 {
-  "name": "typescript_features",
-  "version": "1.0.0",
-  "description": "1.\r 2. Generics\r 3. Whats the difference between Interfaces, Types, Classes, Enums",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ankeris/typescript_features.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ankeris/typescript_features/issues"
-  },
-  "homepage": "https://github.com/ankeris/typescript_features#readme"
+    "name": "typescript_features",
+    "version": "1.0.0",
+    "description": "Quick ts lesson",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ankeris/typescript_features.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ankeris/typescript_features/issues"
+    },
+    "homepage": "https://github.com/ankeris/typescript_features#readme"
 }
