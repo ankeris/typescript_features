@@ -68,3 +68,13 @@ class Greeter {
 }
 
 const welcomingPerson: Greeter = new Greeter("Hey look at me");
+
+class Player {
+    name: string = "someName";
+    level: number = 17;
+}
+
+const smth: Player = {
+    name: "Leo",
+    level: 15,
+};
