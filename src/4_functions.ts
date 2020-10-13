@@ -14,3 +14,24 @@ function buildName(firstName: string, ...restOfName: string[]) {
 }
 
 buildName("carl", "john", "kingston");
+
+// Functional programming
+
+interface RawPerson {
+    identifier: number;
+    first_name: string;
+    last_name: string;
+}
+
+interface Person {
+    id: string;
+    fullName: string;
+}
+type PersonTransformer = (raw: RawPerson) => Person
+
+const transformPerson: PersonTransformer = (raw) => {
+    return {
+        id: `${raw.identifier}`,
+        fullName: `${raw.first_name} ${raw.last_name}`
+    }
+}

@@ -1,7 +1,7 @@
 interface Row<T = any> {
     id: string;
     type: string;
-    data: T
+    data?: T
 }
 
 type AdditionalDetails = {
@@ -13,9 +13,9 @@ type AdditionalDetails = {
 const additionalDetails: Row<AdditionalDetails> = {
     id: "5u4j3n98f0",
     type: 'inline',
-    data: {
-        text: 'im a aditionaldetail row',
-    }
+    // data: {
+    //     text: 'im a aditionaldetail row',
+    // }
 }
 
 const Rows: Row[] = [

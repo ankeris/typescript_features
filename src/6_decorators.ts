@@ -1,7 +1,12 @@
-// function color(value: string) {
-//     // this is the decorator factory
-//     return function (target) {
-//         // this is the decorator
-//         // do something with 'target' and 'value'...
-//     };
-// }
+// # Methods
+
+function WithHowManyLetter(value: string) {
+    // this is the decorator factory
+    console.log(value);
+    
+    return function (target: any) {
+        console.log(target);
+        // this is the decorator
+        // do something with 'target' and 'value'...
+    };
+}
