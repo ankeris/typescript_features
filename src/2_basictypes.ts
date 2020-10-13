@@ -55,3 +55,5 @@ const result = rollDice();
 let fontWeight: "light" | "normal" | "bold" | "900";
 fontWeight = "normal";
 // fontWeight = 'absolute'
+
+export {};

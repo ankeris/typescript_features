@@ -17,5 +17,6 @@
     "bugs": {
         "url": "https://github.com/ankeris/typescript_features/issues"
     },
-    "homepage": "https://github.com/ankeris/typescript_features#readme"
+    "homepage": "https://github.com/ankeris/typescript_features#readme",
+    "dependencies": {}
 }
